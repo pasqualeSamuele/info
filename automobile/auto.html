@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+    </head>
+
+    <body>
+        <form name="f1" action="inserisciAuto.php" method="POST">
+            <h1>Auto</h1>
+            Cognome: <input type="text" name="cognome" value=""><br>
+            Nome:&nbsp; <input type="text" name="nome" ><br>
+            Mail: <input type="email" name="email"> <br>
+            Password <input type="password" name="password"><br><br>
+
+            Marca: <br>
+            <select name="marca">
+                <option value="1">BMW</option>
+                <option value="2">FIAT</option>
+                <option value="3">RENAULT</option>
+            </select><br>
+            Tipo modello:&nbsp;<br>
+            <input type="radio" name="modello" value="1">Berlina <br>
+            <input type="radio" name="modello" value="2">Spider <br>
+            <input type="radio" name="modello" value="3">Suv <br><br>
+            Optional: <br>
+            <input type="checkbox" name="optional[]" value="1">ABS <br>
+            <input type="checkbox" name="optional[]" value="2">Clima <br>
+            <input type="checkbox" name="optional[]" value="3">Bluetooth <br>
+            <input type="checkbox" name="optional[]" value="4">Navigatore <br>
+            <input type="checkbox" name="optional[]" value="5">Cruise control <br><br>
+            Immagine: &nbsp;<input type="file" name="nomeFile"><br><br>
+
+            <input type="submit" name="bInvia" value="invia">
+            <input type="reset" name="reset" value="reset"><br><br>
+        </form>
+    </body>
+
+</html>
